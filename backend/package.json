@@ -4,7 +4,7 @@
   "description": "Plataforma inovadora apoia alunos com características individuais, como TDAH, Dislexia e Síndrome de Asperger, para atingirem seu potencial máximo no percurso acadêmico, oferecendo uma experiência de aprendizado inclusiva e personalizada.",
   "main": "/app/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./backend/app/server.js"
   },
   "keywords": [],
   "author": "",
