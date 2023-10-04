@@ -1,40 +1,62 @@
-const { DataTypes } = require('sequelize')
-const sequelize = require('../../db')
+const Sequelize = require('sequelize')
+const sequelize = require('../database/connection')
 
-const Subject = sequelize.define('Subject', {
+const Student = sequelize.define('Aluno', {
     id: {
-        type: DataTypes.INTEGER,
+        type: Sequelize.INTEGER,
         primaryKey: true,
-        autoIncrement: true
+        autoIncrement: true,
+        allowNull: false
     },
-    name: {
-        type: DataTypes.STRING,
+    nome: {
+        type: Sequelize.STRING,
         allowNull: false,
         validate: {
         notEmpty: true
         }
     },
-    description: {
-        type: DataTypes.STRING,
+    sobrenome: {
+        type: Sequelize.STRING,
         allowNull: false,
         validate: {
         notEmpty: true
         }
     },
-    teacher: {
-        type: DataTypes.STRING,
+    idade: {
+        type: Sequelize.INTEGER,
         allowNull: false,
         validate: {
         notEmpty: true
         }
     },
-    duration: {
-        type: DataTypes.STRING,
+    sexo: {
+        type: Sequelize.STRING,
         allowNull: false,
         validate: {
         notEmpty: true
         }
     },
+    endereco: {
+        type: Sequelize.STRING,
+        allowNull: false,
+        validate: {
+        notEmpty: true
+        }
+    },
+    telefone: {
+        type: Sequelize.STRING,
+        allowNull: false,
+        validate: {
+        notEmpty: true
+        }
+    },
+    escola_id: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        validate: {
+        notEmpty: true
+        }
+    }
     });
 
-module.exports = Subject
+module.exports = Student

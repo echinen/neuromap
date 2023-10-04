@@ -1,35 +1,36 @@
-const { DataTypes } = require('sequelize')
-const sequelize = require('../../db')
+const Sequelize = require('sequelize')
+const sequelize = require('../database/connection')
 
-const User = sequelize.define('User', {
+const User = sequelize.define('Usuario', {
     id: {
-        type: DataTypes.INTEGER,
+        type: Sequelize.INTEGER,
         primaryKey: true,
-        autoIncrement: true
+        autoIncrement: true,
+        allowNull: false
     },
-    name: {
-        type: DataTypes.STRING,
+    nome: {
+        type: Sequelize.STRING,
         allowNull: false,
         validate: {
         notEmpty: true
         }
     },
     email: {
-        type: DataTypes.STRING,
+        type: Sequelize.STRING,
         allowNull: false,
         validate: {
         notEmpty: true
         }
     },
-    password: {
-        type: DataTypes.STRING,
+    senha: {
+        type: Sequelize.STRING,
         allowNull: false,
         validate: {
         notEmpty: true
         }
     },
-    role: {
-        type: DataTypes.STRING, // admin or staff
+    perfil: {
+        type: Sequelize.STRING, // default admin
         allowNull: false,
         validate: {
         notEmpty: true
