@@ -41,5 +41,6 @@ async function findUserByEmailAndPassword(email, senha) {
 const email = document.getElementById("XXXXXX").textContent;
 const senha = document.getElementById("XXXXXX").textContent;
 
-// Chama a função para procurar o usuário e obter o token quando necessário
-findUserByEmailAndPassword(email, senha);
+// Botão para chamar a função quando o botão for clicado
+const fetchAuthentication = document.getElementById("XXXXXXXXX");
+fetchAuthentication.addEventListener("click", findUserByEmailAndPassword(email, senha));
