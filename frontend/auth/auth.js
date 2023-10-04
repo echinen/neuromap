@@ -13,7 +13,7 @@ function setAuthenticationCookie() {
 
 // Função para fazer a requisição e procurar um usuário por email e senha
 async function findUserByEmailAndPassword(email, senha) {
-    const apiUrl = "http://XXXXXXXXX.com/api/login"; // Substitua pela URL correta do endpoint de login
+    const apiUrl = "http://XXXXXXXXX.com/api/login";
     const requestBody = {
         email: email,
         senha: senha,
