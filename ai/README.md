@@ -1,4 +1,4 @@
-# Neuromap
+# NeuroMap
 
 A inteligência artificial desenvolvida utiliza as características:
 - Comportamentais
