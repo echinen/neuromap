@@ -11,14 +11,16 @@ const {
   schoolRoute,
   studentRoute,
   teacherRoute,
-  userRoute
+  userRoute,
+  authRoute
 } = require('./routes/index')
 
 
 const port = config.server.port
 
 // Add all middlewares here
-app.use(express.json());
+app.use(express.json())
+app.use(express.urlencoded({ extended: true}))
 
 // All public routes - check health
 app.get('/', (req, res) => {
@@ -35,6 +37,7 @@ app.use('/api', schoolRoute)
 app.use('/api', studentRoute)
 app.use('/api', teacherRoute)
 app.use('/api', userRoute)
+app.use('/api', authRoute)
 
 // sync to the database
 sequelize.sync()

@@ -73,3 +73,6 @@ Execute o projeto
 
 Assim que executado todas as tabelas do banco de dados serão criados e você pode rodar o DML e inserir alguns dados com o script no caminho da pasta abaixo:
 `cd app/database/scripts/dml.sql`
+
+Ele vai subir na porta 5000
+localhost:5000

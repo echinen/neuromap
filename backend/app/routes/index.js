@@ -7,6 +7,7 @@ const redFlagRoute = require('./redFlagRoute')
 const mappingRoute = require('./mappingRoute')
 const disorderTypeRoute = require('./disorderTypeRoute')
 const classRoute = require('./classRoute')
+const authRoute = require('./authRoute')
 
 module.exports = {
     userRoute,
@@ -17,5 +18,6 @@ module.exports = {
     redFlagRoute,
     mappingRoute,
     disorderTypeRoute,
-    classRoute
+    classRoute,
+    authRoute
 }
