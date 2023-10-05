@@ -13,6 +13,10 @@ input:focus {
     outline: 1px dotted #000!important;
 }
 
+ul {
+    list-style: none;
+}
+
 /* center block */
 .center-block {
     display: -webkit-box;
