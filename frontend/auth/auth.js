@@ -53,11 +53,11 @@ async function findUserByEmailAndPassword(email, senha) {
 }
 
 // Coleta os inputs de login
-const email = document.getElementById("XXXXXX").value;
-const senha = document.getElementById("XXXXXX").value;
+const email = document.getElementById("email").value;
+const senha = document.getElementById("senha").value;
 
 // Botão para chamar a função quando o botão for clicado
-const fetchAuthentication = document.getElementById("XXXXXXXXX");
+const fetchAuthentication = document.getElementById("entrar");
 fetchAuthentication.addEventListener("click", () => {
     findUserByEmailAndPassword(email, senha);
 });
