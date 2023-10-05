@@ -33,19 +33,28 @@
 			"name": "Login",
 			"item": [
 				{
-					"name": "Auth",
+					"name": "Autenticação",
 					"request": {
 						"method": "POST",
 						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\": \"eric2@neuromap.com\",\n    \"senha\": \"senha123\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
 						"url": {
-							"raw": "localhost:5000/api/auth",
+							"raw": "localhost:5000/api/login",
 							"host": [
 								"localhost"
 							],
 							"port": "5000",
 							"path": [
 								"api",
-								"auth"
+								"login"
 							]
 						}
 					},
