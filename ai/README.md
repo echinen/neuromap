@@ -22,7 +22,7 @@ Linux
 - Execute o comando para iniciar a API da IA:
 `python finalize_model_dt_api.py`
 - Abra o navegador com a url abaixo:
-`http://localhost:8000/docs`
+[Teste da API](http://localhost:8000/docs)
 
 Pronto agora você pode realizar os testes da API alterando os valores ou fazer as requisições com o próprio NeuroMap.
 
@@ -40,4 +40,4 @@ Windows
 - Execute o comando para executar a sua imagem
 `docker run -p 8000:8000 apineuromap`
 - Abra o navegador com a url abaixo:
-`http://localhost:8000/docs`
+[Teste da API](http://localhost:8000/docs)
