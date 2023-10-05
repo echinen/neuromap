@@ -39,6 +39,14 @@ input:focus {
     align-items: center;
 }
 
+.mr-0 {
+    margin-right: 0;
+}
+
+.vh-95 {
+    min-height: 95vh;
+}
+
 .font-primary {
     color: rgb(167, 167, 167);
     font-weight: 400!important;
