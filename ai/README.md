@@ -1,6 +1,6 @@
 # Neuromap
 
-A intelgência artificial desenvolvida utiliza as características:
+A inteligência artificial desenvolvida utiliza as características:
 - Comportamentais
 - Socioeconômicas
 - Acadêmicas
