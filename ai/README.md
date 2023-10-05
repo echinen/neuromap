@@ -28,8 +28,7 @@ Pronto agora você pode realizar os testes da API alterando os valores ou fazer 
 
 Docker
 
-Windows
-- Baixar e instalar o docker 
+- Baixar e instalar o docker no Windows
 [Instalador do docker](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe?_gl=1*1sg3hie*_ga*MjkwMjI2MzYzLjE2OTY0NjMzODU.*_ga_XJWPQMJYHQ*MTY5NjQ3Mzk5OC4yLjAuMTY5NjQ3Mzk5OC42MC4wLjA.)
 
 - Acesse o powershell
