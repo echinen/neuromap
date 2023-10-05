@@ -36,6 +36,13 @@ const Student = sequelize.define('Aluno', {
         notEmpty: true
         }
     },
+    cor: { 
+        type: Sequelize.STRING,
+        allowNull: false,
+        validate: {
+        notEmpty: true
+        }
+    },
     endereco: {
         type: Sequelize.STRING,
         allowNull: false,

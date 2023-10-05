@@ -1,12 +1,12 @@
-const userRoute = require('./routes/userRoute')
-const teacherRoute = require('./routes/teacherRoute')
-const studentRoute = require('./routes/studentRoute')
-const schoolRoute = require('./routes/schoolRoute')
-const registrationRoute = require('./routes/registrationRoute')
-const redFlagRoute = require('./routes/redFlagRoute')
-const mappingRoute = require('./routes/mappingRoute')
-const disorderTypeRoute = require('./routes/disorderTypeRoute')
-const classRoute = require('./routes/classRoute')
+const userRoute = require('./userRoute')
+const teacherRoute = require('./teacherRoute')
+const studentRoute = require('./studentRoute')
+const schoolRoute = require('./schoolRoute')
+const registrationRoute = require('./registrationRoute')
+const redFlagRoute = require('./redFlagRoute')
+const mappingRoute = require('./mappingRoute')
+const disorderTypeRoute = require('./disorderTypeRoute')
+const classRoute = require('./classRoute')
 
 module.exports = {
     userRoute,
