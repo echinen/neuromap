@@ -22,6 +22,11 @@ section {
     background-size: cover;
 }
 
+.user-line {
+    margin-right: 40vw;
+    width: 20vw;
+}
+
 /* center block */
 .center-block {
     display: -webkit-box;

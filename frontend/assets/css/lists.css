@@ -279,6 +279,7 @@ a:not([href]):not([tabindex]):focus {
 }
 
 .list-item {
+    border: 1px solid rgb(167, 167, 167);
     position: relative;
     display: -ms-flexbox;
     display: flex;
