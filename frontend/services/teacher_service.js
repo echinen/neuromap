@@ -1,6 +1,6 @@
 // Função para fazer a requisição e mostrar os professores na página
 async function fetchAndDisplayTeachers() {
-    const apiUrl = "http://XXXXXXXXX.com/api/teachers"; 
+    const apiUrl = "http://localhost:5000/api/teachers"; 
     const fetchOptions = {
         method: "GET",
         headers: {

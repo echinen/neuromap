@@ -13,7 +13,7 @@ function setAuthenticationCookie() {
 
 // Função para fazer a requisição e procurar um usuário por email e senha
 async function findUserByEmailAndPassword(email, senha) {
-    const apiUrl = "http://XXXXXXXXX.com/api/login";
+    const apiUrl = "http://localhost:5000/api/login";
     const requestBody = {
         email: email,
         senha: senha,
@@ -24,6 +24,7 @@ async function findUserByEmailAndPassword(email, senha) {
         headers: {
             "Content-Type": "application/json",
         },
+        data: JSON.stringify(requestBody),
         body: JSON.stringify(requestBody),
     };
 

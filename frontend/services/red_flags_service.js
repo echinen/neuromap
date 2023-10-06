@@ -1,6 +1,6 @@
 // Função para fazer a requisição e mostrar as Bandeiras vermelhas na página
 async function fetchAndDisplayRedFlags() {
-    const apiUrl = "http://XXXXXXXXX.com/api/red-flags";
+    const apiUrl = "http://localhost:5000/api/red-flags";
     const fetchOptions = {
         method: "GET",
         headers: {
