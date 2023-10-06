@@ -20,12 +20,11 @@ async function findUserByEmailAndPassword(email, senha) {
     };
     const fetchOptions = {
         method: "POST",
-        mode: 'no-cors',
         headers: {
             "Content-Type": "application/json",
         },
         data: JSON.stringify(requestBody),
-        body: JSON.stringify(requestBody),
+        body: JSON.stringify(requestBody)
     };
 
     try {
