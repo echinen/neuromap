@@ -37,6 +37,5 @@ async function fetchAndDisplayRedFlags() {
     }
 }
 
-// Botão para chamar a função quando o botão for clicado
-const fetchDataButton = document.getElementById("XXXXXXXXX");
-fetchDataButton.addEventListener("click", fetchAndDisplayRedFlags);
+// Para chamar a função ao carregar página
+document.addEventListener("DOMContentLoaded", fetchAndDisplayStudents);
