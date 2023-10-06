@@ -37,6 +37,5 @@ async function fetchAndDisplayStudents() {
     }
 }
 
-// Botão para chamar a função quando o botão for clicado
-const fetchDataButton = document.getElementById("XXXXXXXXX");
-fetchDataButton.addEventListener("click", fetchAndDisplayStudents);
+// Para chamar a função ao carregar página
+document.addEventListener("DOMContentLoaded", fetchAndDisplayStudents);
