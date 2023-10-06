@@ -40,9 +40,11 @@ async function findUserByEmailAndPassword(email, senha) {
         const user = await response.json();
 
         // Verifica se o usuário foi encontrado com email e senha correspondentes
-        if (user && user.email === email && user.senha === senha) {
+        if (user[0] && user[0].email === email && user[0].senha === senha) {
             // Se encontrado, defina 1 dia de autenticação nos cookies
             setAuthenticationCookie();
+            // Redireciona para a home
+            window.location.href= "./../";
         } else {
             // Caso contrário, exibe o usuário não validado
             console.log("Usuário não validado:");
@@ -60,4 +62,11 @@ fetchAuthentication.addEventListener("click", () => {
     const email = document.getElementById("email").value;
     const senha = document.getElementById("senha").value;
     findUserByEmailAndPassword(email, senha);
+});
+
+document.addEventListener("DOMContentLoaded", (event) => {
+    if(document.cookie != "")
+    {
+        window.location.href = './../';
+    }
 });
