@@ -20,6 +20,7 @@ async function findUserByEmailAndPassword(email, senha) {
     };
     const fetchOptions = {
         method: "POST",
+        mode: 'no-cors',
         headers: {
             "Content-Type": "application/json",
         },
@@ -52,12 +53,11 @@ async function findUserByEmailAndPassword(email, senha) {
     }
 }
 
-// Coleta os inputs de login
-const email = document.getElementById("email").value;
-const senha = document.getElementById("senha").value;
-
 // Botão para chamar a função quando o botão for clicado
 const fetchAuthentication = document.getElementById("entrar");
 fetchAuthentication.addEventListener("click", () => {
+    // Coleta os inputs de login
+    const email = document.getElementById("email").value;
+    const senha = document.getElementById("senha").value;
     findUserByEmailAndPassword(email, senha);
 });
