@@ -17,6 +17,11 @@ ul {
     list-style: none;
 }
 
+section {
+    background-image: url(../img/img-fundo.png);
+    background-size: cover;
+}
+
 /* center block */
 .center-block {
     display: -webkit-box;
@@ -61,11 +66,10 @@ ul {
     font-weight: 500!important;
 }
 
-#auth {
-    background-image: url(../img/img-fundo.png);
-    background-size: cover;
-}
-
 .title {
     font-size: 2.5rem;
+}
+
+.btn-primary {
+    background-image: linear-gradient(to right, #20739F 0%, #0485BF 100%);
 }
