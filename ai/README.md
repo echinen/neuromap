@@ -1,11 +1,14 @@
 # NeuroMap
 
-A inteligência artificial desenvolvida utiliza as características:
+A inteligência artificial desenvolvida utiliza as características dos alunos:
 - Comportamentais
 - Socioeconômicas
 - Acadêmicas
 
 Para realizar a predição se o aluno possui características similares a uma pessoa com Transtorno do Déficit de Atenção com Hiperatividade (TDAH).
+
+Nesse projeto foi desenvolvido um painel contendo análise de algumas métricas e indicadores
+[Painel NeuroMap](https://app.powerbi.com/view?r=eyJrIjoiMjFlN2RlNDctNDcxOS00MGMxLWIyZGMtZTViMWQ3OGY3MGY3IiwidCI6Ijk5ZjYxYThhLTRhOTktNDBhNC1iMWVjLWVhMjgwZWVhZTI1NSJ9)
 
 Para realizar o *start* da aplicação é importante seguir os passos:
 
