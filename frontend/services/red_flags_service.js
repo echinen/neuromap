@@ -38,4 +38,4 @@ async function fetchAndDisplayRedFlags() {
 }
 
 // Para chamar a função ao carregar página
-document.addEventListener("DOMContentLoaded", fetchAndDisplayStudents);
+document.addEventListener("DOMContentLoaded", fetchAndDisplayRedFlags);
