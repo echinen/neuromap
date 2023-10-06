@@ -1,0 +1,71 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+input {
+    outline: 0;
+    border-width: 0 0 2px!important;
+    border-color: rgb(167, 167, 167)!important;
+}
+
+input:focus {
+    border-color: rgb(167, 167, 167)!important;
+    outline: 1px dotted #000!important;
+}
+
+ul {
+    list-style: none;
+}
+
+/* center block */
+.center-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.vw-100 {
+    max-width: 100vw;;
+}
+
+.vh-95 {
+    min-height: 95vh;
+}
+
+.font-primary {
+    color: rgb(167, 167, 167);
+    font-weight: 400!important;
+}
+
+.font-secondary {
+    color: grey;
+    font-weight: 500!important;
+}
+
+#auth {
+    background-image: url(../img/img-fundo.png);
+    background-size: cover;
+}
+
+.title {
+    font-size: 2.5rem;
+}
