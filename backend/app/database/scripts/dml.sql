@@ -160,3 +160,11 @@ INSERT INTO Tipo_transtornos (nome, createdAt, updatedAt)
 VALUES
   ('TDAH', NOW(), NOW()),
 
+-- Inserir dados fictícios na tabela "bandeira_vermelhas"
+INSERT INTO Bandeira_vermelhas (aluno_id, mapeamento_id, resposta, createdAt, updatedAt)
+VALUES
+(1, 1, '', NOW(), NOW()),
+(1, 2, '', NOW(), NOW());
+(1, 3, '', NOW(), NOW());
+(1, 4, '', NOW(), NOW());
+(1, 5, '', NOW(), NOW());
