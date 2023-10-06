@@ -1,6 +1,6 @@
 // Função para fazer a requisição e mostrar os mapeamentos na página
 async function fetchAndDisplayMappings() {
-    const apiUrl = "http://XXXXXXXXX.com/api/mappings";
+    const apiUrl = "http://localhost:5000/api/mappings";
     const fetchOptions = {
         method: "GET",
         headers: {

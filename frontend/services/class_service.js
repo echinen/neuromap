@@ -1,6 +1,6 @@
 // Função para fazer a requisição e mostrar as classes na página
 async function fetchAndDisplayClasses() {
-    const apiUrl = "http://XXXXXXXXX.com/api/class";
+    const apiUrl = "http://localhost:5000/api/class";
     const fetchOptions = {
         method: "GET",
         headers: {

@@ -1,6 +1,6 @@
 // Função para fazer a requisição e mostrar as escolas na página
 async function fetchAndDisplaySchools() {
-    const apiUrl = "http://XXXXXXXXX.com/api/schools";
+    const apiUrl = "http://localhost:5000/api/schools";
     const fetchOptions = {
         method: "GET",
         headers: {

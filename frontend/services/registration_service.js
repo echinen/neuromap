@@ -1,6 +1,6 @@
 // Função para fazer a requisição e mostrar as matrículas na página
 async function fetchAndDisplayRegistrations() {
-    const apiUrl = "http://XXXXXXXXX.com/api/registrations"; 
+    const apiUrl = "http://localhost:5000/api/registrations"; 
     const fetchOptions = {
         method: "GET",
         headers: {

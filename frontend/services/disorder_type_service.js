@@ -1,6 +1,6 @@
 // Função para fazer a requisição e mostrar os tipos de distúrbios na página
 async function fetchAndDisplayDisorderTypes() {
-    const apiUrl = "http://XXXXXXXXX.com/api/disorder-types";
+    const apiUrl = "http://localhost:5000/api/disorder-types";
     const fetchOptions = {
         method: "GET",
         headers: {
