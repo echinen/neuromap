@@ -1,6 +1,6 @@
 // Função para fazer a requisição e mostrar os estudantes na página
 async function fetchAndDisplayStudents() {
-    const apiUrl = "http://localhost:5000/api/students";
+    const apiUrl = "http://localhost:5000/api/student";
     const fetchOptions = {
         method: "GET",
         headers: {
