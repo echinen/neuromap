@@ -1,6 +1,9 @@
 # NeuroMap
 <p>Plataforma inovadora apoia alunos com características individuais, como TDAH, para atingirem seu potencial máximo no percurso acadêmico, oferecendo uma experiência de aprendizado inclusiva e personalizada.</p>
 
+<p>O projeto foi dividido em 3 partes: Artificial Intelligence, Back End e Front End. Em cada sub projeto você verá o passo a passo em como executar cada projeto em sua máquina (local).
+</p>
+
 ### Índice
 * [Artificial Intelligence](https://github.com/echinen/neuromap/tree/main/ai)
 * [Back End](https://github.com/echinen/neuromap/tree/main/backend)
