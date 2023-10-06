@@ -1,5 +1,5 @@
 const express = require('express');
-const app = express();
+const cors = require('cors');
 const config = require('./config')
 const sequelize = require('./database/connection')
 const { 
@@ -18,9 +18,12 @@ const {
 
 const port = config.server.port
 
+const app = express();
+
 // Add all middlewares here
 app.use(express.json())
 app.use(express.urlencoded({ extended: true}))
+app.use(cors());
 
 // All public routes - check health
 app.get('/', (req, res) => {
